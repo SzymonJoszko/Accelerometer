@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
-// Interface SensorEventListener służy do otrzymywania powiadomień z SensorMenagera,
+// Interface SensorEventListener służy do otrzymywania powiadomień z SensorManagera,
 // gdy pojawią sie nowe dane z czujnika.
 // Interface posiada dwie abstarkcyjne metody:
 // abstract fun onAccuracyChanged(sensor: Sensor!, accuracy: Int): Unit
